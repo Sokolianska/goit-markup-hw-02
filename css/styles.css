@@ -1,3 +1,46 @@
+:root{
+        --hero-color:#FFFFFF;
+        --background: #E5E5E5;
+        --background-header:#ECECEC;
+        --text1-color:#212121;
+        --text2-color:#757575;
+        --color-active:#2196F3;
+        --color-btn:#2196F3;
+}
+
 body{
         font-family: "roboto", sans-serif;
+}
+.list{list-style: none;}
+.link{text-decoration: none;}
+.header{
+        background-color: #fff;
+}
+.header-list{
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #212121;}
+
+.header-tel{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.header-link:hoover,.header-link:focus{
+        color:var--color-active}
+.hero-btn{
+font-family:inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.14;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
 }
