@@ -12,30 +12,41 @@
 body{
         font-family: "roboto", sans-serif;
 }
-.list{list-style: none;}
+
+/* .list{list-style: none;}
+
 .link{text-decoration: none;}
 
 .header{
         background-color: #fff;
-}
-.header-list{
+} */
+
+/* .header-list-item{
         font-weight: normal;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #212121;
         text-decoration: none;
+} */
+
+.header-link{
+        text-align: right;
+        text-decoration: none;
+        text-transform: capitalize;
+        line-height: normal;
 }
 
-.header-tel{
+.header-contact{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 }
-.header-link:hoover,.header-link:focus{
-        color:var--color-active}
+/* .header-link:hoover,.header-link:focus{
+        color:var--color-active} */
+
 .hero-btn{
 font-family:inherit;
 font-style: normal;
@@ -65,10 +76,6 @@ color: #FFFFFF;
                 
 }
 .web{
-        color:var(--color-active);
-       
-}
+        color:var(--color-active);}
 .studio{
-        color:var(--color-logo);
-        
-}
+        color:var(--color-logo);}
