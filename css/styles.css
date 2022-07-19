@@ -45,7 +45,12 @@ color: var(--accent-txt-cl);
 cursor:pointer;
         }
 
-.hero{background-color: var(--background-footer);}
+.hero{
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+        background-color: var(--background-footer);}
 .hero-text{
         font-family: var(--font1);
         font-style: normal;
@@ -56,6 +61,11 @@ cursor:pointer;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: var(--white-txt-cl);
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+        position: absolute;
 }
 
 .btn{
@@ -74,6 +84,11 @@ cursor:pointer;
 .btn-mode-dark {
         color: var(--white-txt-cl);
         background: var(--accent-txt-cl);
+        position: absolute;
+        width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
 }
 
 .btn-mode-light {color: var(--text1-color);
