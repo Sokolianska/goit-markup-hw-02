@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WebStudio — Our Portfolio</title>
 
-  <!-- Google Fonts: Raleway 700; Roboto 400/500/700 (one link) -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
 
@@ -15,7 +15,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./css/styles.css" />
-  <meta name="description" content="GOIT Homework #2 — Our Portfolio section" />
+  <meta name="description" content="GOIT Homework #2 — Our Portfolio section (6 projects)" />
 </head>
 
 <body>
@@ -23,35 +23,40 @@
   <header class="header">
     <div class="container header__wrap">
       <a class="logo" href="./" aria-label="WebStudio home">
-        <!-- текстовий логотип, щоб відрізнити кольори у header/footer -->
         <span class="logo__accent">WEB</span><span class="logo__main">STUDIO</span>
       </a>
 
-      <nav class="nav" aria-label="Main">
+      <nav class="nav" aria-label="Головна навігація">
         <ul class="nav__list">
           <li><a class="nav__link" href="#">Studio</a></li>
-          <li><a class="nav__link nav__link--current" href="#">Portfolio</a></li>
+          <li>
+            <a class="nav__link nav__link--current" href="#">Portfolio</a>
+          </li>
           <li><a class="nav__link" href="#">Contacts</a></li>
         </ul>
       </nav>
 
       <address class="contacts">
         <ul class="contacts__list">
-          <li><a class="contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="contacts__link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="contacts__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </div>
   </header>
 
   <main>
-    <!-- ===== Our Portfolio (HW#2) ===== -->
+    <!-- ===== Our Portfolio ===== -->
     <section class="section portfolio" aria-labelledby="portfolio-title">
       <div class="container">
         <h1 id="portfolio-title" class="visually-hidden">Our Portfolio</h1>
 
         <!-- Filters -->
-        <ul class="filters" role="tablist" aria-label="Portfolio filters">
+        <ul class="filters" aria-label="Portfolio filters">
           <li><button class="filters__btn" type="button">All</button></li>
           <li><button class="filters__btn" type="button">Web Site</button></li>
           <li><button class="filters__btn" type="button">App</button></li>
@@ -59,14 +64,15 @@
           <li><button class="filters__btn" type="button">Marketing</button></li>
         </ul>
 
-        <!-- Cards -->
+        <!-- Cards (6 шт) -->
         <ul class="grid">
-          <!-- 1 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
                 <img src="./images/portfolio/banking-app.jpg" alt="Banking App interface screens" width="360" />
-                <p class="card__overlay">14 stylish and user-friendly app design concepts with modern UI kit.</p>
+                <p class="card__overlay">
+                  14 stylish and user-friendly app design concepts with modern UI kit.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Banking App</h2>
@@ -75,12 +81,13 @@
             </a>
           </li>
 
-          <!-- 2 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
-                <img src="./images/portfolio/cashless.jpg" alt="Tap to pay terminal and phone" width="360" />
-                <p class="card__overlay">Seamless NFC payments and clear checkout flow for businesses.</p>
+                <img src="./images/portfolio/cashless.jpg" alt="Tap-to-pay terminal and phone" width="360" />
+                <p class="card__overlay">
+                  Seamless NFC payments and clear checkout flow for businesses.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Cashless Payment</h2>
@@ -89,12 +96,13 @@
             </a>
           </li>
 
-          <!-- 3 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
                 <img src="./images/portfolio/meditation-app.jpg" alt="Meditation mobile app preview" width="360" />
-                <p class="card__overlay">Calm palette, clean typography and guided sessions.</p>
+                <p class="card__overlay">
+                  Calm palette, clean typography and guided sessions.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Meditation App</h2>
@@ -103,12 +111,13 @@
             </a>
           </li>
 
-          <!-- 4 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
                 <img src="./images/portfolio/taxi-service.jpg" alt="Taxi app map with car route" width="360" />
-                <p class="card__overlay">Realtime ride tracking and transparent pricing.</p>
+                <p class="card__overlay">
+                  Realtime ride tracking and transparent pricing.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Taxi Service</h2>
@@ -117,12 +126,13 @@
             </a>
           </li>
 
-          <!-- 5 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
                 <img src="./images/portfolio/screen-illustrations.jpg" alt="Abstract UI illustrations" width="360" />
-                <p class="card__overlay">Illustrations for onboarding and empty states.</p>
+                <p class="card__overlay">
+                  Illustrations for onboarding and empty states.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Screen Illustrations</h2>
@@ -131,12 +141,13 @@
             </a>
           </li>
 
-          <!-- 6 -->
           <li class="card">
             <a class="card__link" href="#">
               <div class="card__thumb">
                 <img src="./images/portfolio/online-courses.jpg" alt="Laptop with course dashboard" width="360" />
-                <p class="card__overlay">Marketplace with progress tracking and tutor ratings.</p>
+                <p class="card__overlay">
+                  Marketplace with progress tracking and tutor ratings.
+                </p>
               </div>
               <div class="card__info">
                 <h2 class="card__title">Online Courses</h2>
