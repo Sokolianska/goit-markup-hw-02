@@ -1,5 +1,6 @@
 :root {
-    /* Colors */
+    --font-main: "Roboto", sans-serif;
+    --font-logo: "Raleway", sans-serif;
     --iris: #4d5ae5;
     --ocean: #404bbf;
     --navy-blue: #2e2f42;
@@ -8,11 +9,16 @@
     --light-slate: #8e8f99;
     --cornflower: #e7e9fc;
     --cloud: #f4f4fd;
-    --white: #fff;
+    --white: #ffffff;
+}
 
-    /* Fonts */
-    --font-main: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-    --font-logo: "Raleway", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+/* Base */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    margin: 0;
+    letter-spacing: 0.02em;
 }
 
 /* Reset */
@@ -24,14 +30,6 @@ html {
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-body {
-    font-family: var(--font-main);
-    color: var(--slate);
-    background-color: var(--white);
-    margin: 0;
-    letter-spacing: 0.02em;
 }
 
 img {
