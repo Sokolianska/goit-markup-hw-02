@@ -1,252 +1,249 @@
+<!DOCTYPE html>
+<html lang="uk">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WebStudio — Our Portfolio</title>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet" />
 
-  <!-- modern-normalize -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
 
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="container header__wrap">
-        <a href="./index.html" class="logo header__logo">
-          <span class="logo__accent logo__accent--header">WEB</span>STUDIO
-        </a>
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <a href="./index.html" class="logo header__logo">
+        <span class="logo__accent logo__accent--header">WEB</span>STUDIO
+      </a>
 
-        <nav class="nav">
-          <ul class="nav__list">
-            <li><a class="nav__link nav__link--current" href="./index.html">Studio</a></li>
-            <li><a class="nav__link" href="#">Portfolio</a></li>
-            <li><a class="nav__link" href="#">Contacts</a></li>
-          </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link nav__link--current" href="./index.html">Studio</a></li>
+          <li><a class="nav__link" href="#">Portfolio</a></li>
+          <li><a class="nav__link" href="#">Contacts</a></li>
+        </ul>
+      </nav>
 
-        <address class="contacts">
-          <ul class="contacts__list">
-            <li>
-              <a class="contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="contacts__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
+      <address class="contacts">
+        <ul class="contacts__list">
+          <li>
+            <a class="contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="contacts__link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Effective Solutions for Your Business</h1>
+        <button class="btn btn--primary" type="button">Order Service</button>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Hero -->
-      <section class="hero">
-        <div class="container hero__wrap">
-          <h1 class="hero__title">Effective Solutions for Your Business</h1>
-          <button class="btn btn--primary" type="button">Order Service</button>
-        </div>
-      </section>
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Our Advantages</h2>
+        <ul class="features__list">
+          <li>
+            <h3 class="features__title">Strategy</h3>
+            <p class="features__text">
+              Our goal is to identify the business problem and craft a product strategy.
+            </p>
+          </li>
+          <li>
+            <h3 class="features__title">Punctuality</h3>
+            <p class="features__text">
+              Bring the key message to the brand’s audience for the best price within the shortest
+              time.
+            </p>
+          </li>
+          <li>
+            <h3 class="features__title">Diligence</h3>
+            <p class="features__text">
+              Research and confirm brands with the strongest digital growth potential.
+            </p>
+          </li>
+          <li>
+            <h3 class="features__title">Technologies</h3>
+            <p class="features__text">
+              Design practice focused on digital experiences. We bring forth a deep passion for
+              problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- Features -->
-      <section class="section features" aria-labelledby="features-title">
-        <div class="container">
-          <h2 id="features-title" class="visually-hidden">Our Advantages</h2>
-          <ul class="features__list">
-            <li class="features__item">
-              <h3 class="features__title">Strategy</h3>
-              <p class="features__text">
-                Our goal is to identify the business problem and craft a product strategy.
-              </p>
-            </li>
-            <li class="features__item">
-              <h3 class="features__title">Punctuality</h3>
-              <p class="features__text">
-                Bring the key message to the brand’s audience for the best price within the shortest
-                time.
-              </p>
-            </li>
-            <li class="features__item">
-              <h3 class="features__title">Diligence</h3>
-              <p class="features__text">
-                Research and confirm brands with the strongest digital growth potential.
-              </p>
-            </li>
-            <li class="features__item">
-              <h3 class="features__title">Technologies</h3>
-              <p class="features__text">
-                Design practice focused on digital experiences. We bring forth a deep passion for
-                problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <section class="section team">
+      <div class="container">
+        <h2 class="section__title">Our Team</h2>
+        <ul class="team__grid">
+          <li class="team__card">
+            <img src="./images/team/mark-guerrero.jpg" alt="Mark Guerrero — Product Designer" width="264" />
+            <div class="team__info"> 
+              <h3 class="team__name">Mark Guerrero</h3>
+              <p class="team__role">Product Designer</p>
+            </div>
+          </li>
+          <li class="team__card">
+            <img src="./images/team/tom-ford.jpg" alt="Tom Ford — Frontend Developer" width="264" />
+            <div class="team__info">
+              <h3 class="team__name">Tom Ford</h3>
+              <p class="team__role">Frontend Developer</p>
+            </div>
+          </li>
+          <li class="team__card">
+            <img src="./images/team/camila-garcia.jpg" alt="Camila Garcia — Marketing Specialist" width="264" />
+            <div class="team__info">
+              <h3 class="team__name">Camila Garcia</h3>
+              <p class="team__role">Marketing Specialist</p>
+            </div>
+          </li>
+          <li class="team__card">
+            <img src="./images/team/daniel-wilson.jpg" alt="Daniel Wilson — UI Designer" width="264" />
+            <div class="team__info">
+              <h3 class="team__name">Daniel Wilson</h3>
+              <p class="team__role">UI Designer</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- Team -->
-      <section class="section team" aria-labelledby="team-title">
-        <div class="container">
-          <h2 id="team-title" class="section__title">Our Team</h2>
-          <ul class="team__grid">
-            <li class="team__card">
-              <img src="./images/team/mark-guerrero.jpg" alt="Mark Guerrero — Product Designer" width="264" />
-              <div class="team__info">
-                <h3 class="team__name">Mark Guerrero</h3>
-                <p class="team__role">Product Designer</p>
+    <section class="section portfolio">
+      <div class="container">
+        <h2 class="section__title">Our Portfolio</h2>
+
+        <ul class="filters">
+          <li><button class="filters__btn" type="button">All</button></li>
+          <li><button class="filters__btn" type="button">Web Site</button></li>
+          <li><button class="filters__btn" type="button">App</button></li>
+          <li><button class="filters__btn" type="button">Design</button></li>
+          <li><button class="filters__btn" type="button">Marketing</button></li>
+        </ul>
+
+        <ul class="projects">
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/banking-app.jpg" alt="Banking app screens" width="360" />
+                <p class="card__overlay">
+                  14 Stylish and User-Friendly App Design Concepts.
+                </p>
               </div>
-            </li>
-            <li class="team__card">
-              <img src="./images/team/tom-ford.jpg" alt="Tom Ford — Frontend Developer" width="264" />
-              <div class="team__info">
-                <h3 class="team__name">Tom Ford</h3>
-                <p class="team__role">Frontend Developer</p>
+              <div class="card__meta">
+                <h3 class="card__title">Banking App</h3>
+                <p class="card__category">App</p>
               </div>
-            </li>
-            <li class="team__card">
-              <img src="./images/team/camila-garcia.jpg" alt="Camila Garcia — Marketing" width="264" />
-              <div class="team__info">
-                <h3 class="team__name">Camila Garcia</h3>
-                <p class="team__role">Marketing</p>
+            </a>
+          </li>
+
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/cashless.jpg" alt="Tap-to-pay NFC terminal" width="360" />
+                <p class="card__overlay">
+                  Cashless payment terminal UI concept.
+                </p>
               </div>
-            </li>
-            <li class="team__card">
-              <img src="./images/team/daniel-wilson.jpg" alt="Daniel Wilson — UI Designer" width="264" />
-              <div class="team__info">
-                <h3 class="team__name">Daniel Wilson</h3>
-                <p class="team__role">UI Designer</p>
+              <div class="card__meta">
+                <h3 class="card__title">Cashless Payment</h3>
+                <p class="card__category">Marketing</p>
               </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+            </a>
+          </li>
 
-      <!-- Portfolio -->
-      <section class="section portfolio" aria-labelledby="portfolio-title">
-        <div class="container">
-          <h2 id="portfolio-title" class="section__title">Our Portfolio</h2>
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/meditation-app.jpg" alt="Meditation mobile app" width="360" />
+                <p class="card__overlay">
+                  Meditation and productivity app interface.
+                </p>
+              </div>
+              <div class="card__meta">
+                <h3 class="card__title">Meditation App</h3>
+                <p class="card__category">App</p>
+              </div>
+            </a>
+          </li>
 
-          <!-- Filters -->
-          <ul class="filters" aria-label="Portfolio filters">
-            <li><button class="filters__btn" type="button">All</button></li>
-            <li><button class="filters__btn" type="button">Web Site</button></li>
-            <li><button class="filters__btn" type="button">App</button></li>
-            <li><button class="filters__btn" type="button">Design</button></li>
-            <li><button class="filters__btn" type="button">Marketing</button></li>
-          </ul>
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/taxi-service.jpg" alt="Taxi service app map" width="360" />
+                <p class="card__overlay">
+                  Taxi ordering service application design.
+                </p>
+              </div>
+              <div class="card__meta">
+                <h3 class="card__title">Taxi Service</h3>
+                <p class="card__category">Marketing</p>
+              </div>
+            </a>
+          </li>
 
-          <!-- Cards -->
-          <ul class="projects">
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/banking-app.jpg" alt="Banking app screens" width="360" />
-                  <p class="card__overlay">
-                    14 stylish and user-friendly app design concepts with modern UI kit.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Banking App</h3>
-                  <p class="card__category">App</p>
-                </div>
-              </a>
-            </li>
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/screen-illustrations.jpg" alt="Abstract UI illustrations" width="360" />
+                <p class="card__overlay">
+                  Collection of abstract digital illustrations.
+                </p>
+              </div>
+              <div class="card__meta">
+                <h3 class="card__title">Screen Illustrations</h3>
+                <p class="card__category">Design</p>
+              </div>
+            </a>
+          </li>
 
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/cashless.jpg" alt="Tap-to-pay NFC terminal" width="360" />
-                  <p class="card__overlay">
-                    Seamless NFC payments and clear checkout flow for businesses.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Cashless Payment</h3>
-                  <p class="card__category">Marketing</p>
-                </div>
-              </a>
-            </li>
+          <li class="card">
+            <a class="card__link" href="#">
+              <div class="card__thumb">
+                <img src="./images/portfolio/online-courses.jpg" alt="Online courses dashboard" width="360" />
+                <p class="card__overlay">
+                  Online courses dashboard and analytics.
+                </p>
+              </div>
+              <div class="card__meta">
+                <h3 class="card__title">Online Courses</h3>
+                <p class="card__category">Marketing</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/meditation-app.jpg" alt="Meditation mobile app" width="360" />
-                  <p class="card__overlay">
-                    Calm palette, clean typography and guided sessions.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Meditation App</h3>
-                  <p class="card__category">App</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/taxi-service.jpg" alt="Taxi service app map" width="360" />
-                  <p class="card__overlay">
-                    Realtime ride tracking and transparent pricing.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Taxi Service</h3>
-                  <p class="card__category">App</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/screen-illustrations.jpg" alt="Abstract illustrations" width="360" />
-                  <p class="card__overlay">
-                    Illustrations for onboarding and empty states.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Screen Illustrations</h3>
-                  <p class="card__category">Design</p>
-                </div>
-              </a>
-            </li>
-
-            <li class="card">
-              <a class="card__link" href="#">
-                <div class="card__thumb">
-                  <img src="./images/portfolio/online-courses.jpg" alt="Online courses dashboard" width="360" />
-                  <p class="card__overlay">
-                    Marketplace with progress tracking and tutor ratings.
-                  </p>
-                </div>
-                <div class="card__meta">
-                  <h3 class="card__title">Online Courses</h3>
-                  <p class="card__category">Marketing</p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container footer__wrap">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
         <a href="./index.html" class="logo footer__logo">
           <span class="logo__accent logo__accent--footer">WEB</span>STUDIO
         </a>
         <p class="footer__text">
-          Increase the flow of customers and sales for your business with digital marketing &
+          Increase the flow of customers and sales for your business with digital marketing and
           development.
         </p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+
+</body>
+
 </html>
